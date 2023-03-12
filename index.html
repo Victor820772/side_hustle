@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+       <title>A simple form</title>
+    </head>
+    <body>
+       <hi>Fill the form below</hi>
+       <form action="" method="">
+          <fieldset>
+            <legend>Simple form</legend>
+            <label for="fullname">Full name</label>
+            <input type="text" name="fullname" required id="fullname"> <br>          
+              <label for="email">Email address</label>
+              <input type="email" name="email" id="email" required> <br>
+            <label for="phone_number">Phone number</label>
+          <input type="tel" name="phone_number" required id="phone_number"><br>
+              Gender: <br>
+            <label>
+              <input type="radio" name="sex" value="M" id="sex_0">
+             Male </label> <br>
+            <label>
+                <input type="radio" name="sex" value="F" id="sex_1">
+             Female </label><br>
+             <label for="pwd">Password</label>
+            <input type="password" name="pwd" required id="pwd"><br>
+            <button type="button" onclick="alert('form submitted successfully.')">Submit</button>
+
+        </fieldset>
+       </form>
+    </body>
+</html>
