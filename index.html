@@ -3,19 +3,21 @@
     <head>
         <meta charset="utf-8">
        <title>A simple form</title>
+       <link rel="stylesheet" href="style.css">
     </head>
     <body>
-       <hi>Fill the form below</hi>
+       <h1 style="text-align: center;">Fill the form below</h1>
+       <div id="formcont">
        <form action="" method="">
           <fieldset>
-            <legend>Simple form</legend>
+            <legend style="font-size: 26px; text-align: center; font-family: cursive;">Simple form</legend>
             <label for="fullname">Full name</label>
             <input type="text" name="fullname" required id="fullname"> <br>          
               <label for="email">Email address</label>
               <input type="email" name="email" id="email" required> <br>
             <label for="phone_number">Phone number</label>
           <input type="tel" name="phone_number" required id="phone_number"><br>
-              Gender: <br>
+              <div style="font-family: cursive;">Gender: </div>
             <label>
               <input type="radio" name="sex" value="M" id="sex_0">
              Male </label> <br>
@@ -28,5 +30,6 @@
 
         </fieldset>
        </form>
+       </div>
     </body>
 </html>

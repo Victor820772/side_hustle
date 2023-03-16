@@ -1,0 +1,30 @@
+body{
+    margin: 16px;
+    background-color: rgb(255, 255, 255);
+ /**   border: 5px solid rgb(126, 126, 126);**/
+    padding: 16px;
+}
+
+fieldset{
+    background-color: rgb(238, 211, 58);
+    padding: 16px;
+    width: 100px;
+    margin: auto;
+}
+
+label{
+    font-family: cursive;
+}
+
+#formcont{
+    
+}
+
+button{
+    margin: 16px;
+    background-color: brown;
+    color: white;
+    border-color: brown;
+    width: 60px;
+    margin-left: 50px;
+}
